@@ -1,7 +1,7 @@
 <div id="top" align="center">
     <br>
     <img src="images/nearly.svg" style="height: 80px;"></img>
-    <hr>
+    <br><br>
     <p>A utility that allows you to toggle system immutability.</p>
     <br>
 </div>
