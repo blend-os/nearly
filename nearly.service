@@ -1,0 +1,10 @@
+[Unit]
+Description=Make system immutable
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/nearly enter ro
+User=root
+
+[Install]
+WantedBy=multi-user.target
