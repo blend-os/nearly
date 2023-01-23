@@ -1,12 +1,12 @@
 <div id="top" align="center">
-    <img src="images/nearly.svg" style="height: 80px;"></img>
     <br>
-    <h1>nearly</h1>
+    <img src="images/nearly.svg" style="height: 80px;"></img>
+    <hr>
     <p>A utility that allows you to toggle system immutability.</p>
     <br>
 </div>
 
-> **Note**: This is still WIP (work in progress).
+> This is still WIP (work in progress).
 
 ## Build dependencies
 
