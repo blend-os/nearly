@@ -25,12 +25,6 @@ func SwitchRo(ro bool, verbose bool) {
 		nearly_files_l1, _ := filepath.Glob(filepath.Join(path, "**"))
 
 		for _, path_l1 := range nearly_files_l1 {
-			/* if ro && GetImmutable(path_l1) {
-				return
-			} else if ro == false && !GetImmutable(path_l1) {
-				return
-			} */
-
 			nearly_files_l2, _ := filepath.Glob(filepath.Join(path_l1, "**"))
 
 			var wg sync.WaitGroup
